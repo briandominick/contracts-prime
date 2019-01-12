@@ -5,10 +5,13 @@
 :agreement_date: 23 August, 2018
 :reporting_to: Your Name
 :sectnums:
+ifndef::backend-pdf[:toc: macro]
 ifdef::backend-pdf[]
 //[discrete]
 = {doctitle}
 endif::[]
+
+toc::[]
 
 == General Clauses
 
