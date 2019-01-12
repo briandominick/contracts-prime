@@ -1,4 +1,6 @@
 :doctype: article
+:document_canonical_source_repository_url:
+:document_prime_source_url:
 :doctitle: Documentation Engineering Consulting Agreement
 :consultant_name_full: Brian Dominick
 :company_name_full: Your Company, Inc
@@ -12,6 +14,9 @@ ifdef::backend-pdf[]
 endif::[]
 
 toc::[]
+
+This document's canonical version can always be found at
+{document_prime_source_url}/{docname}
 
 == General Clauses
 
@@ -61,9 +66,9 @@ To the extent that, in the course of providing the Services, Consultant jointly 
 
 === Intellectual Property Definitions
 
-Content:: Source matter in the form of structured and unstructured prose, lists, diagrams, and images.
+Content:: Source material in the form of structured and unstructured prose, lists, diagrams, and images.
 
-Data:: Semi-structured and structured matter in datasources, such as binary relational databases or flat data files formatted in YAML, JSON, XML, CSV, or similar markup.
+Data:: Semi-structured and structured information in datasources, such as binary relational databases or flat data files formatted in YAML, JSON, XML, CSV, or similar markup.
 
 Source Matter:: *Content* and *Data*, collectively.
 
@@ -75,11 +80,11 @@ Functional Code:: Software source code or compiled software applications intende
 In the case of Source Matter authored by Consultant in furtherance of or related to this Agreement containing, describing, or illustrating aspects of Company or its products for Company audiences such as employees, customers, partners, users, or anyone else whose primary relationship is with Company and not Consultant, *all rights, titles, and interest in said Source Matter and resulting digital artifacts shall be assigned by Consultant to Company*.
 
 *Excepted Source Matter.*
-Excepted from the *Company Source Matter* clause (previous) is any Source Matter authored by Consultant about the process, experience, or results of carrying out this Agreement and related work, such as case studies, blog posts, or publicly shared observations, none of which shall expose or place at risk Confidential Information, as set forth below in <<Confidential Information,confidential-information>>.
+Excepted from the *Company Source Matter* clause (previous) is any Source Matter authored by Consultant about the process, experience, or results of carrying out this Agreement and related work, such as case studies, blog posts, or publicly shared observations, none of which shall expose or place at risk Confidential Information, as set forth below in <<confidential-information>>.
 
 *Nonexclusive Source Matter.*
-In the case of instructional or referential Source Matter authored by Consultant to instruct or facilitate this Agreement (*“Nonexclusive Source Matter”*), as opposed to Company Source Matter which describes or instructs the use of Company products or Company information, Company relinquishes any claim to such Nonexclusive Source Matter.
-Consultant shall maintain copyright over Nonexclusive Source Matter, but Consultant shall license all such material for modification and publication by Company and any other party under one or more of the following permissive open-source license with no fees associated.
+In the case of instructional or referential Source Matter authored by Consultant to instruct or facilitate this Agreement (*“Nonexclusive Source Matter”*), as opposed to Company Source Matter, which describes or instructs the use of Company products or Company information, *Company relinquishes any claim to such Nonexclusive Source Matter*.
+Consultant shall maintain copyright over Nonexclusive Source Matter, but Consultant shall license all such material for modification, publication, and distribution by Company and any other party under one or more of the following permissive open-source license, with no fees associated.
 
 * Creative Commons ShareAlike (Version 3 or 4) +
 https://creativecommons.org/licenses/by-sa/3.0/ +
@@ -99,10 +104,11 @@ https://opensource.org/licenses/BSD-3-Clause
 
 *Company review of Nonexclusive Source Matter.*
 The previous clause covering “Nonexclusive Source Matter” shall not be interpreted to permit the reproduction of Company Source Matter in any form, including within Nonexclusive Source Matter.
-Any nonexclusive Source Matter to be released by Consultant or any other party besides Company shall be stripped of any and all Company Source Matter and subject to reasonable review and approval by Company.
+Any nonexclusive Source Matter to be released by Consultant or any other party besides Company shall subject to reasonable review and approval by Company.
 
 *Ownership of Inventions.*
-Consultant shall maintain copyright ownership over any and all Functional Code authored or invented by consultant during the terms of this Agreement or in pursuit of this Agreement's deliverables, but Consultant shall license all such Functional Code for commercial or other use, modification, or republication by Company and any other party under one or more of the following permissive open-source license with no fees associated.
+Consultant shall maintain copyright ownership over any and all Functional Code authored or invented by consultant during the terms of this Agreement or in pursuit of this Agreement's deliverables.
+Consultant shall license all such Functional Code for commercial or other use, modification, or republication by Company and any other party under one or more of the following permissive open-source license with no fees associated.
 
 * The MIT License +
 https://opensource.org/licenses/MIT
@@ -126,16 +132,16 @@ Confidential Information includes, without limitation: (i) company inventions; (
 
 *Conflicts with this Agreement.*
 Consultant represents and warrants that Consultant is not under any pre-existing obligation in conflict or in any way inconsistent with the provisions of this Agreement.
-Consultant represents and warrants that Consultant’s performance of all the terms of this Agreement will not breach any agreement to keep in confidence proprietary information acquired by Consultant in confidence or in trust prior to commencement of this Agreement.
+Consultant represents and warrants that Consultant’s performance of all the terms of this Agreement will not breach any agreement between Consultant and a party other than Company to keep in confidence proprietary information acquired by Consultant in confidence or in trust prior to commencement of this Agreement.
 Consultant warrants that Consultant has the right to disclose and use all ideas, processes, techniques and other information, if any, which Consultant has gained from third parties, and which Consultant discloses to the Company or uses in the course of performance of this Agreement, without liability to such third parties.
-Notwithstanding the foregoing, Consultant agrees that Consultant shall not bundle with or incorporate into any deliveries provided to the Company herewith any third party products, ideas, processes, or other techniques, without the express, written prior approval of the Company.
+Notwithstanding the foregoing, Consultant agrees that Consultant shall not bundle with or incorporate into any deliveries provided to the Company herewith any third party products, ideas, processes, or other techniques, without the express, written prior approval of the Company, which express approval includes licenses properly adhered to.
 Consultant represents and warrants that Consultant has not granted and will not grant any rights or licenses to any intellectual property or technology that would conflict with Consultant’s obligations under this Agreement.
-Consultant will not knowingly infringe upon any copyright, patent, trade secret or other property right of any former client, employer or third party in the performance of the Services.
+Consultant will not knowingly infringe upon any copyright, patent, trade secret or other property right of any former client, employer, or third party in the performance of the Services.
 
 *Waiver and Notice.*
-Any term of this Agreement may be amended or waived only with the prior written consent of both Parties.
+Any term of this Agreement may be amended or waived only with prior adjustment to this Agreement accompanied by digitally registered consent of both Parties.
 This Agreement, including the Exhibits hereto, constitutes the sole agreement of the parties and supersedes all oral negotiations and prior writings with respect to the subject matter hereof.
-Any notice required or permitted by this Agreement shall be in writing and shall be deemed sufficient upon receipt, when delivered personally, by courier or delivery service, or by e-mail.
+Any notice required or permitted by this Agreement shall be registered using the secure methods laid out in <<authentication>>.
 
 *Jurisdiction and Enforcement.*
 The validity, interpretation, construction and performance of this Agreement shall be governed by the laws of the State of New York, without giving effect to the principles of conflict of laws.
@@ -147,6 +153,13 @@ If a court or other body of competent jurisdiction finds, or the Parties mutuall
 *Informed Consent.*
 Each party acknowledges that, in executing this Agreement, such party has had the opportunity to seek the advice of independent legal counsel, and has read and understood all of the terms and provisions of this Agreement, including any attachments or schedules.
 This Agreement shall not be construed against any party by reason of the drafting or preparation hereof.*
+
+[[authentication]]
+=== Authorization and Authentication
+
+This Agreement shall be verified by both Parties using digital means, as instructed at .
+
+This document's canonical URL is {document_prime_source_url}
 
 <<<
 
@@ -204,13 +217,13 @@ Tasks will be assigned, managed, and monitored in GitHub repository Issues track
 
 | Deliverables:
 a|
-* build configuration files (Bash, LiquiDoc, your tool)
+* build configuration files (Bash, LiquiDoc, Gradle, Maven, Make, etc)
 * template design files (Liquid)
 * small-data architecture files (YAML)
 * content structuring files (Liquid, AsciiDoc, Markdown)
 * migration configuration files (Bash, LiquiDoc, subtxt, CSV)
-* front-end styling and coding files (CSS, HTML, JS)
-* end-user instructions in the format of your choice
+* front-end styling and functional files (CSS, HTML, JS)
+* end-user instructions in the format of Company's choice
 
 | Service Period:
 | Commencing: {agreement_date}
