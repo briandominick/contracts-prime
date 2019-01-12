@@ -1,0 +1,5 @@
+= Codewriting Contracts
+
+This repository contains the prime version of contract language originating with the Codewriting project.
+
+They are intended to be forked, modified (collaboratively, when applicable), and then digitally signed by all parties in a manner far more secure, verifiable, and tracable than standard digital-signing methods.

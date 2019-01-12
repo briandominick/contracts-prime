@@ -1,0 +1,219 @@
+:doctype: article
+:doctitle: Documentation Engineering Consulting Agreement
+:consultant_name_full: Brian Dominick
+:company_name_full: Your Company, Inc
+:agreement_date: 23 August, 2018
+:reporting_to: Your Name
+ifdef::backend-pdf[]
+//[discrete]
+= {doctitle}
+endif::[]
+
+== General Clauses
+
+*Headings.*
+Headings are used in this Agreement for reference only and shall not be considered when interpreting this Agreement.
+
+*Consulting Relationship.*
+During the term of this Agreement, *{consultant_name_full} (“Consultant”)* will provide services (the *“Services”*) to *{company_name_full} (“Company”)* as described by *<<schedule-a,Schedule A>>* of this Agreement.
+Consultant represents that Consultant is duly licensed (as applicable) and has the qualifications, the experience and the ability to properly perform the Services.
+
+*Fees.*
+As consideration for the Services to be provided by Consultant and other obligations, the Company shall pay to Consultant the amounts specified by Schedule A of this Agreement.
+
+*Expenses.*
+Consultant shall not be authorized to incur on behalf of the Company any expenses and will be responsible for all expenses incurred while performing the Services unless otherwise approved by an officer of the Company, which approval shall be evidenced in writing for any expenditure in excess of $100.
+As a condition to receipt of reimbursement, Consultant shall be required to submit to the Company reasonable evidence that the amount involved was both reasonable and necessary to the Services provided under this Agreement on an approved purchase order.
+Such purchase order number must appear on Consultant’s invoice for services.
+
+*Return of Company Materials.*
+At the Company’s request, Consultant will, within a period not to exceed 5 business days, deliver to the Company, and will not keep in Consultant’s possession, recreate, or deliver to anyone else, any and all Company property, including, but not limited to, Confidential Information, tangible embodiments of the Inventions, all devices and equipment belonging to the Company, all electronically stored information and passwords to access such property, notes and records maintained, and any reproductions of any of the foregoing items that Consultant may have in Consultant’s possession or control.
+Consultant reserves the right to charge Company for reasonable costs associated with this Return of Company Materials.
+
+== Relationship of Parties
+
+*Term and Termination.*
+Consultant shall serve as a consultant to the Company for any period listed on <<schedule-a,Schedule A>> of this Agreement.
+Notwithstanding the foregoing, either party may terminate this Agreement at any time with written notice.
+In the event of such termination, Consultant shall be paid for any portion of the Services that have been performed prior to the termination.
+
+*Independent Contractor.*
+Consultant’s relationship with the Company will be that of an independent contractor and not that of an employee.
+Consultant shall be solely responsible for determining the method, details and means of performing the Services.
+Consultant acknowledges and agrees that Consultant has no authority to enter into contracts that bind the Company or create obligations on the part of the Company without the prior written authorization of the Company.
+Consultant acknowledges and agrees that Consultant shall not be eligible for any Company employee benefits and, to the extent Consultant otherwise would be eligible for any Company employee benefits but for the express terms of this Agreement, Consultant (on behalf of itself and its employees) hereby expressly declines to participate in such Company employee benefits.
+Consultant shall have full responsibility for applicable withholding taxes for all compensation paid to Consultant under this Agreement, and for compliance with all applicable labor and employment requirements with respect to Consultant’s self-employment, sole proprietorship or other form of business organization.
+Consultant agrees to indemnify, defend and hold the Company harmless from any liability for, or assessment of, any claims or penalties with respect to such withholding taxes, labor or employment requirements, including any liability for, or assessment of, withholding taxes imposed on the Company by the relevant taxing authorities with respect to any compensation paid to Consultant.
+
+*Supervision of Consultant’s Services.*
+All of the services to be performed by Consultant, including but not limited to the Services, will be as agreed between Consultant and the Company’s management.
+Consultant will be required to report to the person or persons identified in Schedule A of this Agreement concerning the Services performed under this Agreement.
+The nature and frequency of these reports will be left to the discretion of such person or persons.
+
+== Intellectual Property
+
+Company recognizes that permissively licensed, open-source software is Consultant's stock in trade, and work performed under this Agreement will employ software largely authored and nonexclusively copyrighted by Consultant.
+To the extent that, in the course of providing the Services, Consultant jointly or solely conceives, develops, or reduces to practice any inventions, original works of authorship, developments, concepts, know-how, improvements or trade secrets, whether or not patentable or registrable under copyright or similar laws (collectively, *“New Inventions”*), the following arrangements are acknowledged and accepted by both Parties.
+
+=== Intellectual Property Definitions
+
+Content:: Source matter in the form of structured and unstructured prose, lists, diagrams, and images.
+
+Data:: Semi-structured and structured matter in datasources, such as binary relational databases or flat data files formatted in YAML, JSON, XML, CSV, or similar markup.
+
+Source Matter:: *Content* and *Data*, collectively.
+
+Functional Code:: Software source code or compiled software applications intended to facilitate or execute operations in fulfillment of the terms of this Agreement.
+
+=== Intellectual Property Agreements
+
+*Company Source Matter.*
+In the case of Source Matter authored by Consultant in furtherance of or related to this Agreement containing, describing, or illustrating aspects of Company or its products for Company audiences such as employees, customers, partners, users, or anyone else whose primary relationship is with Company and not Consultant, *all rights, titles, and interest in said Source Matter and resulting digital artifacts shall be assigned by Consultant to Company*.
+
+*Excepted Source Matter.*
+Excepted from the *Company Source Matter* clause (previous) is any Source Matter authored by Consultant about the process, experience, or results of carrying out this Agreement and related work, such as case studies, blog posts, or publicly shared observations, none of which shall expose or place at risk Confidential Information, as set forth below in <<Confidential Information,confidential-information>>.
+
+*Nonexclusive Source Matter.*
+In the case of instructional or referential Source Matter authored by Consultant to instruct or facilitate this Agreement (*“Nonexclusive Source Matter”*), as opposed to Company Source Matter which describes or instructs the use of Company products or Company information, Company relinquishes any claim to such Nonexclusive Source Matter.
+Consultant shall maintain copyright over Nonexclusive Source Matter, but Consultant shall license all such material for modification and publication by Company and any other party under one or more of the following permissive open-source license with no fees associated.
+
+* Creative Commons ShareAlike (Version 3 or 4) +
+https://creativecommons.org/licenses/by-sa/3.0/ +
+https://creativecommons.org/licenses/by-sa/4.0/
+
+* The MIT License +
+https://opensource.org/licenses/MIT
+
+* Apache License 2.0 +
+https://opensource.org/licenses/Apache-2.0
+
+* Mozilla Public License 2.0 +
+https://opensource.org/licenses/MPL-2.0
+
+* BSD 3-clause +
+https://opensource.org/licenses/BSD-3-Clause
+
+*Company review of Nonexclusive Source Matter.*
+The previous clause covering “Nonexclusive Source Matter” shall not be interpreted to permit the reproduction of Company Source Matter in any form, including within Nonexclusive Source Matter.
+Any nonexclusive Source Matter to be released by Consultant or any other party besides Company shall be stripped of any and all Company Source Matter and subject to reasonable review and approval by Company.
+
+*Ownership of Inventions.*
+Consultant shall maintain copyright ownership over any and all Functional Code authored or invented by consultant during the terms of this Agreement or in pursuit of this Agreement's deliverables, but Consultant shall license all such Functional Code for commercial or other use, modification, or republication by Company and any other party under one or more of the following permissive open-source license with no fees associated.
+
+* The MIT License +
+https://opensource.org/licenses/MIT
+
+* Apache License 2.0 +
+https://opensource.org/licenses/Apache-2.0
+
+* Mozilla Public License 2.0 +
+https://opensource.org/licenses/MPL-2.0
+
+* BSD 3-clause +
+https://opensource.org/licenses/BSD-3-Clause
+
+[[confidential-information]]
+*Confidential Information.*
+Consultant agrees, at all times during the term of this Agreement and thereafter, to hold in strictest confidence, and not to use, except for the benefit of the Company to the extent necessary to perform its obligations hereunder, and not to disclose to any person, firm, corporation or other entity, without written authorization from the Company in each instance, any Confidential Information (as defined below) that Consultant obtains, accesses or creates during the term of this Agreement, whether or not during working hours, until such Confidential Information becomes publicly and widely known and made generally available through no wrongful act of Consultant.
+Consultant further agrees not to make copies of such Confidential Information except as authorized by the Company. “Confidential Information” means information, data, and physical material not generally known or available outside the Company and information, data, and physical material entrusted to the Company in confidence by third parties.
+Confidential Information includes, without limitation: (i) company inventions; (ii) technical data, trade secrets, know-how, research, product or service ideas or plans, software codes and designs, developments, inventions, laboratory notebooks, processes, formulas, techniques, lists of, or information relating to, suppliers and customers, pricing methodologies, cost data, market share data, marketing plans, licenses, contract information, business plans, financial forecasts, historical financial data, budgets or other business information disclosed to Consultant by the Company either directly or indirectly, whether in writing, electronically, orally, or by observation.
+
+== Conditions of Agreement
+
+*Conflicts with this Agreement.*
+Consultant represents and warrants that Consultant is not under any pre-existing obligation in conflict or in any way inconsistent with the provisions of this Agreement.
+Consultant represents and warrants that Consultant’s performance of all the terms of this Agreement will not breach any agreement to keep in confidence proprietary information acquired by Consultant in confidence or in trust prior to commencement of this Agreement.
+Consultant warrants that Consultant has the right to disclose and use all ideas, processes, techniques and other information, if any, which Consultant has gained from third parties, and which Consultant discloses to the Company or uses in the course of performance of this Agreement, without liability to such third parties.
+Notwithstanding the foregoing, Consultant agrees that Consultant shall not bundle with or incorporate into any deliveries provided to the Company herewith any third party products, ideas, processes, or other techniques, without the express, written prior approval of the Company.
+Consultant represents and warrants that Consultant has not granted and will not grant any rights or licenses to any intellectual property or technology that would conflict with Consultant’s obligations under this Agreement.
+Consultant will not knowingly infringe upon any copyright, patent, trade secret or other property right of any former client, employer or third party in the performance of the Services.
+
+*Waiver and Notice.*
+Any term of this Agreement may be amended or waived only with the prior written consent of both Parties.
+This Agreement, including the Exhibits hereto, constitutes the sole agreement of the parties and supersedes all oral negotiations and prior writings with respect to the subject matter hereof.
+Any notice required or permitted by this Agreement shall be in writing and shall be deemed sufficient upon receipt, when delivered personally, by courier or delivery service, or by e-mail.
+
+*Jurisdiction and Enforcement.*
+The validity, interpretation, construction and performance of this Agreement shall be governed by the laws of the State of New York, without giving effect to the principles of conflict of laws.
+If one or more provisions of this Agreement are held to be unenforceable under applicable law, the parties agree to renegotiate such provision in good faith.
+In the event that the parties cannot reach a mutually agreeable and enforceable replacement for such provision, then (i) such provision shall be excluded from this Agreement, (ii) the balance of the Agreement shall be interpreted as if such provision were so excluded and (iii) the balance of the Agreement shall be enforceable in accordance with its terms.
+This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together will constitute one and the same instrument.
+If a court or other body of competent jurisdiction finds, or the Parties mutually believe, any provision of this Agreement, or portion thereof, to be invalid or unenforceable, such provision will be enforced to the maximum extent permissible so as to effect the intent of the Parties, and the remainder of this Agreement will continue in full force and effect.
+
+*Informed Consent.*
+Each party acknowledges that, in executing this Agreement, such party has had the opportunity to seek the advice of independent legal counsel, and has read and understood all of the terms and provisions of this Agreement, including any attachments or schedules.
+This Agreement shall not be construed against any party by reason of the drafting or preparation hereof.*
+
+<<<
+
+[[signature-page]]
+== Signature Page
+
+[cols="1,1",grid="rows",width="100%"]
+|===
+| *COMPANY:*
+| {company_name_full}
+
+| *Representative's signature:*
+|
+
+| *Date:*
+|
+|===
+
+
+[cols="1,1",grid="rows",width="100%"]
+|===
+| *CONSULTANT:*
+| {consultant_name_full}
+
+| *Consultant's signature:*
+|
+
+| *Date:*
+|
+|===
+
+<<<
+
+[[schedule-a]]
+== Schedule A
+
+[cols="1s,3",width="100%"]
+|===
+| Date of Agreement: | {agreement_date}
+
+| Name of Consultant:
+| {consultant_name_full}
+
+| Services to Be Performed:
+a|
+Tasks will be assigned, managed, and monitored in GitHub repository Issues tracker or readily accessible tracking platform of Company's preference, to be of the following nature:
+
+* coding & configuring (C&C)
+* realtime/production administration of docs environment
+* user documentation for delivered C&C
+* user instruction for delivered C&C
+* documentation of work performed
+* content migration assistance
+* other tasks to be decided and agreed
+
+| Deliverables:
+a|
+* build configuration files (Bash, LiquiDoc, your tool)
+* template design files (Liquid)
+* small-data architecture files (YAML)
+* content structuring files (Liquid, AsciiDoc, Markdown)
+* migration configuration files (Bash, LiquiDoc, subtxt, CSV)
+* front-end styling and coding files (CSS, HTML, JS)
+* end-user instructions in the format of your choice
+
+| Service Period:
+| Commencing: {agreement_date}
+
+| Compensation:
+|
+
+| Reporting to:
+| {reporting_to}
+|===
