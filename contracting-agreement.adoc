@@ -4,6 +4,7 @@
 :company_name_full: Your Company, Inc
 :agreement_date: 23 August, 2018
 :reporting_to: Your Name
+:sectnums:
 ifdef::backend-pdf[]
 //[discrete]
 = {doctitle}
