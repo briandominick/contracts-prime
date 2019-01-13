@@ -20,7 +20,7 @@ toc::[]
 
 For purposes of drafting, document management, and signature authentication, this document is tracked using distributed version control system called Git.
 Instructions for editing and signing this document are at https://github.com/briandominick/contracts-prime/blob/master/README.adoc.
-For more information about the methodology, see “Legal Docs as Code” at https://www.codewriting.org/blog-legal-docs-as-code-git-markup.
+For more information about the methodology, see “Legal Docs as Code” at https://www.codewriting.org/blog-managing-signing-legal-docs-git-markup-code.
 
 This document's canonical version can always be found at
 https://github.com/briandominick/contracts-prime/blob/master/blob/contracting-agreement.adoc.
@@ -165,9 +165,9 @@ This Agreement shall not be construed against any party by reason of the draftin
 [[authentication]]
 === Authorization and Authentication
 
-This Agreement shall be verified by both Parties using digital means, as instructed at .
+This Agreement shall be verified by both Parties using digital means, as instructed at https://github.com/briandominick/contracts-prime/blob/master/README.adoc.
 
-This document's canonical URL is {document_prime_source_url}
+This document's canonical URL is https://github.com/briandominick/contracts-prime/blob/master/blob/contracting-agreement.adoc.
 
 <<<
 
