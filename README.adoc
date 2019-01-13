@@ -65,7 +65,7 @@ image::assets/images/github-commit-form.png[width=300]
 [[gpg-signing]]
 === Method 2: GPG-Authenticated Signing
 
-[WARNING]
+[IMPORTANT]
 These instructions require that you have a GPG key associated with the e-mail address with which you perform business as well as a link:https://github.com/join[free GitHub account].
 GitHub instructs link:https://help.github.com/articles/generating-a-new-gpg-key[generating a GPG key], link:https://help.github.com/articles/checking-for-existing-gpg-keys[checking if you already have one], and link:https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account[linking it to your GitHub account].
 After this process, you may need to link:https://help.github.com/articles/telling-git-about-your-signing-key/[configure your local Git to use a particular key].
@@ -114,6 +114,10 @@ git push -u origin master
 [[basic-git-signing]]
 === Method 3: Basic Non-GitHub Git Signing
 
+[WARNING]
+This method offers minimal if any authentication enhancement.
+See [[considerations]] for more.
+
 . Clone the repository to your local system using the Git command-line interface or another Git client, such as GitHub desktop (does not require GitHub account).
 +
 .Command-line example
@@ -153,6 +157,7 @@ git commit -am "Your Name signature"
 [source,bash]
 git push -u origin master
 
+[[considerations]]
 == Authentication and Authorization Considerations
 
 All three options for digitally signing a contract using the Git method instructed here likely have different legal implications.
