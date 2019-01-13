@@ -26,7 +26,7 @@ Headings are used in this Agreement for reference only and shall not be consider
 == Relationship of Parties
 
 *Term and Termination.*
-Consultant shall serve as a consultant to the Company for any period listed on <<schedule-a,Schedule A>> of this Agreement.
+Consultant shall serve as a consultant to the Company for any period listed on <<schedule-a>> of this Agreement (the “Term”).
 Notwithstanding the foregoing, either party may terminate this Agreement at any time with written notice.
 In the event of such termination, Consultant shall be paid for any portion of the Services that have been performed prior to the termination.
 
@@ -107,7 +107,7 @@ The previous clause covering “Nonexclusive Source Matter” shall not be inter
 Any nonexclusive Source Matter to be released by Consultant or any other party besides Company shall subject to reasonable review and approval by Company.
 
 *Ownership of Inventions.*
-Consultant shall maintain copyright ownership over any and all Functional Code authored or invented by consultant during the terms of this Agreement or in pursuit of this Agreement's deliverables.
+Consultant shall maintain copyright ownership over any and all Functional Code authored or invented by consultant during the Term of this Agreement or in pursuit of this Agreement's deliverables.
 Consultant shall license all such Functional Code for commercial or other use, modification, or republication by Company and any other party under one or more of the following permissive open-source license with no fees associated.
 
 * The MIT License +
@@ -124,7 +124,7 @@ https://opensource.org/licenses/BSD-3-Clause
 
 [[confidential-information]]
 *Confidential Information.*
-Consultant agrees, at all times during the term of this Agreement and thereafter, to hold in strictest confidence, and not to use, except for the benefit of the Company to the extent necessary to perform its obligations hereunder, and not to disclose to any person, firm, corporation or other entity, without written authorization from the Company in each instance, any Confidential Information (as defined below) that Consultant obtains, accesses or creates during the term of this Agreement, whether or not during working hours, until such Confidential Information becomes publicly and widely known and made generally available through no wrongful act of Consultant.
+Consultant agrees, at all times during the Term of this Agreement and thereafter, to hold in strictest confidence, and not to use, except for the benefit of the Company to the extent necessary to perform its obligations hereunder, and not to disclose to any person, firm, corporation or other entity, without written authorization from the Company in each instance, any Confidential Information (as defined below) that Consultant obtains, accesses or creates during the Term of this Agreement, whether or not during working hours, until such Confidential Information becomes publicly and widely known and made generally available through no wrongful act of Consultant.
 Consultant further agrees not to make copies of such Confidential Information except as authorized by the Company. “Confidential Information” means information, data, and physical material not generally known or available outside the Company and information, data, and physical material entrusted to the Company in confidence by third parties.
 Confidential Information includes, without limitation: (i) company inventions; (ii) technical data, trade secrets, know-how, research, product or service ideas or plans, software codes and designs, developments, inventions, laboratory notebooks, processes, formulas, techniques, lists of, or information relating to, suppliers and customers, pricing methodologies, cost data, market share data, marketing plans, licenses, contract information, business plans, financial forecasts, historical financial data, budgets or other business information disclosed to Consultant by the Company either directly or indirectly, whether in writing, electronically, orally, or by observation.
 
