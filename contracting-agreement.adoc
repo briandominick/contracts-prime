@@ -18,14 +18,29 @@ toc::[]
 This document's canonical version can always be found at
 {document_prime_source_url}/{docname}
 
-== General Clauses
+== Definitions and General Clauses
 
 *Headings.*
 Headings are used in this Agreement for reference only and shall not be considered when interpreting this Agreement.
 
+== Relationship of Parties
+
+*Term and Termination.*
+Consultant shall serve as a consultant to the Company for any period listed on <<schedule-a,Schedule A>> of this Agreement.
+Notwithstanding the foregoing, either party may terminate this Agreement at any time with written notice.
+In the event of such termination, Consultant shall be paid for any portion of the Services that have been performed prior to the termination.
+
 *Consulting Relationship.*
-During the term of this Agreement, *{consultant_name_full} (“Consultant”)* will provide services (the *“Services”*) to *{company_name_full} (“Company”)* as described by *<<schedule-a,Schedule A>>* of this Agreement.
+During the Term of this Agreement, *{consultant_name_full} (“Consultant”)* will provide services (the *“Services”*) to *{company_name_full} (“Company”)* as described by *<<schedule-a,Schedule A>>* of this Agreement.
 Consultant represents that Consultant is duly licensed (as applicable) and has the qualifications, the experience and the ability to properly perform the Services.
+
+*Independent Contractor.*
+Consultant’s relationship with the Company will be that of an independent contractor and not that of an employee.
+Consultant shall be solely responsible for determining the method, details and means of performing the Services.
+Consultant acknowledges and agrees that Consultant has no authority to enter into contracts that bind the Company or create obligations on the part of the Company without the prior written authorization of the Company.
+Consultant acknowledges and agrees that Consultant shall not be eligible for any Company employee benefits and, to the extent Consultant otherwise would be eligible for any Company employee benefits but for the express terms of this Agreement, Consultant (on behalf of itself and its employees) hereby expressly declines to participate in such Company employee benefits.
+Consultant shall have full responsibility for applicable withholding taxes for all compensation paid to Consultant under this Agreement, and for compliance with all applicable labor and employment requirements with respect to Consultant’s self-employment, sole proprietorship or other form of business organization.
+Consultant agrees to indemnify, defend and hold the Company harmless from any liability for, or assessment of, any claims or penalties with respect to such withholding taxes, labor or employment requirements, including any liability for, or assessment of, withholding taxes imposed on the Company by the relevant taxing authorities with respect to any compensation paid to Consultant.
 
 *Fees.*
 As consideration for the Services to be provided by Consultant and other obligations, the Company shall pay to Consultant the amounts specified by Schedule A of this Agreement.
@@ -38,21 +53,6 @@ Such purchase order number must appear on Consultant’s invoice for services.
 *Return of Company Materials.*
 At the Company’s request, Consultant will, within a period not to exceed 5 business days, deliver to the Company, and will not keep in Consultant’s possession, recreate, or deliver to anyone else, any and all Company property, including, but not limited to, Confidential Information, tangible embodiments of the Inventions, all devices and equipment belonging to the Company, all electronically stored information and passwords to access such property, notes and records maintained, and any reproductions of any of the foregoing items that Consultant may have in Consultant’s possession or control.
 Consultant reserves the right to charge Company for reasonable costs associated with this Return of Company Materials.
-
-== Relationship of Parties
-
-*Term and Termination.*
-Consultant shall serve as a consultant to the Company for any period listed on <<schedule-a,Schedule A>> of this Agreement.
-Notwithstanding the foregoing, either party may terminate this Agreement at any time with written notice.
-In the event of such termination, Consultant shall be paid for any portion of the Services that have been performed prior to the termination.
-
-*Independent Contractor.*
-Consultant’s relationship with the Company will be that of an independent contractor and not that of an employee.
-Consultant shall be solely responsible for determining the method, details and means of performing the Services.
-Consultant acknowledges and agrees that Consultant has no authority to enter into contracts that bind the Company or create obligations on the part of the Company without the prior written authorization of the Company.
-Consultant acknowledges and agrees that Consultant shall not be eligible for any Company employee benefits and, to the extent Consultant otherwise would be eligible for any Company employee benefits but for the express terms of this Agreement, Consultant (on behalf of itself and its employees) hereby expressly declines to participate in such Company employee benefits.
-Consultant shall have full responsibility for applicable withholding taxes for all compensation paid to Consultant under this Agreement, and for compliance with all applicable labor and employment requirements with respect to Consultant’s self-employment, sole proprietorship or other form of business organization.
-Consultant agrees to indemnify, defend and hold the Company harmless from any liability for, or assessment of, any claims or penalties with respect to such withholding taxes, labor or employment requirements, including any liability for, or assessment of, withholding taxes imposed on the Company by the relevant taxing authorities with respect to any compensation paid to Consultant.
 
 *Supervision of Consultant’s Services.*
 All of the services to be performed by Consultant, including but not limited to the Services, will be as agreed between Consultant and the Company’s management.
