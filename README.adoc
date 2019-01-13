@@ -33,13 +33,13 @@ Instead of GitHub, these procedures can be carried out using other popular Git p
 
 This method requires a link:https://github.com/join[free GitHub account] but _not_ an encryption signature or a local installation of Git.
 
-. View the document online at the source shared with you (appears before *Section 1*).
+. View the document online at the source shared with you (appears before *Digital Contract*).
 
 . Click the edit link to expose the raw, editable document source in your browser, near the top-right corner of the document pane.
 +
 image::assets/images/github-edit-link.png[width=300]
 
-. Scroll down to the section marked `[[signature-page]]`.
+. Scroll down to the section marked `\[[signature-page]]`.
 +
 [source,asciidoc]
 ----
@@ -52,10 +52,10 @@ image::assets/images/github-edit-link.png[width=300]
 [source,asciidoc]
 ----
 | *Representative's signature:*
-| <Your Name>
+| Fran Johansen
 
 | *Date:*
-| <Month D, YEAR>
+| September 21, 2019
 ----
 
 . Under *Commit changes*, enter a message indicating you have signed the document and click *Commit changes*.
@@ -79,7 +79,7 @@ git clone {git_repo_url}
 
 . Open the document in a text editor of your choice.
 
-. Scroll down to the section marked `[[signature-page]]`.
+. Scroll down to the section marked `\[[signature-page]]`.
 +
 [source,asciidoc]
 ----
@@ -92,16 +92,16 @@ git clone {git_repo_url}
 [source,asciidoc]
 ----
 | *Representative's signature:*
-| <Your Name>
+| Fran Johansen
 
 | *Date:*
-| <Month D, YEAR>
+| September 21, 2019
 ----
 
 . Commit and digitally sign the changes using command-line Git.
 +
 [source,bash]
-git commit -am "Your Name signature" -S
+git commit -am "Fran Johansen signature" -S
 +
 * Replace `Your Name` with your full name. +
 * The `-S` flag instructs GPG signing.
@@ -116,7 +116,7 @@ git push -u origin master
 
 [WARNING]
 This method offers minimal if any authentication enhancement.
-See [[considerations]] for more.
+See <<considerations>> for more.
 
 . Clone the repository to your local system using the Git command-line interface or another Git client, such as GitHub desktop (does not require GitHub account).
 +
@@ -126,7 +126,7 @@ git clone {git_repo_url}
 
 . Open the document in a text editor of your choice.
 
-. Scroll down to the section marked `[[signature-page]]`.
+. Scroll down to the section marked `\[[signature-page]]`.
 +
 [source,asciidoc]
 ----
@@ -139,10 +139,10 @@ git clone {git_repo_url}
 [source,asciidoc]
 ----
 | *Representative's signature:*
-| <Your Name>
+| Fran Johansen
 
 | *Date:*
-| <Month D, YEAR>
+| September 21, 2019
 ----
 
 . Commit the changes using command-line Git.
