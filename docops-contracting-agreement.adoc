@@ -23,7 +23,7 @@ Instructions for editing and signing this document are at https://github.com/bri
 For more information about the methodology, see “Legal Docs as Code” at https://www.codewriting.org/blog-legal-docs-as-code-git-markup.
 
 This document's canonical version can always be found at
-https://github.com/briandominick/contracts-prime/contracting-agreement.adoc.
+https://github.com/briandominick/contracts-prime/blob/master/blob/contracting-agreement.adoc.
 This is a private GitHub project to which you should have access.
 
 == Definitions and General Clauses
