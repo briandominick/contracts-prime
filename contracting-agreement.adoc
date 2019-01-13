@@ -1,5 +1,6 @@
 :doctype: article
-:document_canonical_source_repository_url:
+:doc_canonical_src_repo_web_uri: https://github.com/briandominick/contracts-prime
+:document_canonical_source_repository_git_uri:
 :document_prime_source_url:
 :doctitle: Documentation Engineering Consulting Agreement
 :consultant_name_full: Brian Dominick
@@ -15,8 +16,15 @@ endif::[]
 
 toc::[]
 
+== Digital Agreement
+
+For purposes of drafting, document management, and signature authentication, this document is tracked using distributed version control system called Git.
+Instructions for editing and signing this document are at https://github.com/briandominick/contracts-prime/blob/master/README.adoc.
+For more information about the methodology, see “Legal Docs as Code” at https://www.codewriting.org/blog-legal-docs-as-code-git-markup.
+
 This document's canonical version can always be found at
-{document_prime_source_url}/{docname}
+https://github.com/briandominick/contracts-prime/contracting-agreement.adoc.
+This is a private GitHub project to which you should have access.
 
 == Definitions and General Clauses
 
