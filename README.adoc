@@ -172,7 +172,7 @@ A GH account can also be considered authentic to the extent its owner links to i
 As with Method 1, a GitHub account only provides authenticity where it is referenced by other entities, such as links to the GH account from official places.
 
 A GPG key by default has even less verification than a GH account.
-GH keys are again only as powerful as their social imprint.
+GPG keys are again only as powerful as their social imprint.
 GPG keys can be verified by other GPG users, though this networked authentication is fairly weak.
 The most reliable way to verify that a given GPG signature is authentically associated with a real-world identity is to expose the public key from the GPG-keypair in use.
 Posting the keypair's fingerprint or public key in official places like websites and social media is a great way to establish authenticity.
